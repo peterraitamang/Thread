@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="50dp"
+    android:background="#D8DBE6">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Text Here" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="submit"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#8BC34A"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tv_shownText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text is shown here."
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:textColor="#C32323"/>
+
+
+</LinearLayout>
